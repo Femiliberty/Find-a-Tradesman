@@ -1,0 +1,85 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  text-transform: capitalize;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+/* style for display after clicked on job button */
+.output {
+  color: rgb(70,139,202);
+  font-size: calc(10px + 2vmin);
+  width: 60%;
+  min-height: 50vh;
+  box-sizing: border-box;
+  border: 1px solid #333;
+}
+
+.active {
+  border-left: 3px solid gold;
+}
+
+.nav-bar {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.nav-bar a {
+  font-size: 1.3em;
+}
+
+.map {
+  opacity: 0.5;
+}
+
+img {
+  width: 120px;
+  padding-top: 10px;
+  
+}
+
+.logo {
+  color: #282c34;
+  font-size: 100px;
+
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+li {
+padding: 15px;
+}
+
+.form {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.addForm {
+  margin-left: 150px ;
+  width: 80%;
+}
+
+.largeFont {
+  font-size: 1em;
+}
+
+.marginSpace {
+  margin-bottom: 10px;
+}

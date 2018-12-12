@@ -1,0 +1,16 @@
+bcryptjs 
+cookie-parser 
+cors 
+debug 
+dotenv 
+express 
+hjs 
+http-errors 
+jsonwebtoken 
+moment 
+mongoose 
+morgan 
+node-geocoder 
+passport 
+passport-jwt 
+validator 
